@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Acme', sans-serif;
+}
+.container{
+   
+}
+/* =================homepage css==============================
+========================================================== */
+
+/*======= bg img css======== */
+#home_page{
+    background-image: url(../images/background-image.jpg);
+    background-size:cover;
+    background-position:center top;
+}
+.overlay{
+    background: rgb(0 0 0 / 30%);
+}
+/*========= logo css ============*/
+.logo{
+    float:left;
+    width:50%;
+}
+.logo_icons{
+    overflow: hidden;
+    clear:both;
+ }
+/* =======social icons css=========== */
+.social_icons{
+    padding-top:30px;
+    padding-right:30px;
+}
+.all_social_icons{
+    float:right;
+    max-width: 100%;
+    width: 50%;
+    text-align: right;
+}
+.all_social_icons i{
+    border-radius: 50%;
+    display:inline-block;
+    text-decoration: none;
+    width: 32px;
+    height: 32px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 17px;
+    cursor:pointer;
+    margin-left:20px;
+    transition:0.3s;
+    
+}
+.fa-twitter{
+    background:#5da9dd;
+    color:#fff;
+}
+.fa-twitter:hover{
+    background:#ffffff;
+    color:#5da9dd;
+    transform: rotate(360deg);
+}
+.fa-telegram-plane{
+    background:#33abdf;
+    color:#fff;
+}
+.fa-telegram-plane:hover{
+    background:#fff;
+    color:#33abdf;
+    transform: rotate(360deg);
+}
+.fa-discord{
+    background:red;
+    color:#fff;
+}
+.fa-discord:hover{
+    background:#fff;
+    color:red;
+    transform: rotate(360deg);
+}
+.logo img{
+    padding-top:30px;
+    padding-left:30px;
+}
+/*============= menubar/navbar css ==============*/
+.Main_menu{
+    padding-top:395px;
+    padding-bottom:73px;
+}
+.menu{
+ text-align: center;
+}
+.menu ul{
+  list-style: none;
+}
+.menu ul li{
+display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    color:#fff;
+    margin-right:25px;
+    font-size:30px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    transition:0.2s;
+}
+.menu ul li a:hover{
+    color:#e2dcdcf0;
+}
+/* -------------------------------about section css------------------------
+-------------------------------------------------------------------------- */
+.about_us_icons{
+    background: #000;
+    color:#fff;
+    text-align: center;
+}
+.about_paragraph{
+    max-width: 860px;
+    width:80%;
+    margin:0 auto;
+    text-align: left;
+}
+.about_paragraph p{
+    line-height: 25px;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    /* text-shadow: 1px 1px #0004ff; */
+}
+    
+
+.about_us_icons h1 {
+    font-size: 40px;
+    padding-top: -20px;
+    padding-bottom: 10px;
+    letter-spacing: 3px;
+}
+hr{
+    width:7%;
+    margin:0 auto;
+}
+.fa-question-circle{
+    color:chocolate;
+}
+.about_icon i {
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom:10px;
+}
+.about_icon h2{
+    letter-spacing: 2px;
+}
+.bg_dark{
+    background: #000;
+}
