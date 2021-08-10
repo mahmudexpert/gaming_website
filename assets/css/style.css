@@ -177,4 +177,7 @@ hr{
         transition:0.3s;
         
     }
+    .about_us_icons h1 {
+    padding-top: 40px;
+}
 }
